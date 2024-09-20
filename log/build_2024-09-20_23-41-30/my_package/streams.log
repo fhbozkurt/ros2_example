@@ -1,0 +1,38 @@
+[1.349s] Invoking command in '/home/fatih/ros2_ws/src/my_package': PYTHONPATH=/home/fatih/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/fatih/ros2_ws/build/my_package/build install --record /home/fatih/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[1.615s] running egg_info
+[1.616s] creating ../../build/my_package/my_package.egg-info
+[1.616s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.616s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.617s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.617s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.617s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.617s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.618s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.619s] adding license file 'LICENSE'
+[1.619s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.619s] running build
+[1.620s] running build_py
+[1.620s] creating /home/fatih/ros2_ws/build/my_package/build
+[1.620s] creating /home/fatih/ros2_ws/build/my_package/build/lib
+[1.620s] creating /home/fatih/ros2_ws/build/my_package/build/lib/my_package
+[1.620s] copying my_package/__init__.py -> /home/fatih/ros2_ws/build/my_package/build/lib/my_package
+[1.620s] copying my_package/my_node.py -> /home/fatih/ros2_ws/build/my_package/build/lib/my_package
+[1.620s] running install
+[1.620s] running install_lib
+[1.621s] creating /home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.621s] copying /home/fatih/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.621s] copying /home/fatih/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package
+[1.621s] byte-compiling /home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[1.622s] byte-compiling /home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[1.622s] running install_data
+[1.622s] creating /home/fatih/ros2_ws/install/my_package/share/ament_index
+[1.622s] creating /home/fatih/ros2_ws/install/my_package/share/ament_index/resource_index
+[1.622s] creating /home/fatih/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[1.622s] copying resource/my_package -> /home/fatih/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+[1.622s] copying package.xml -> /home/fatih/ros2_ws/install/my_package/share/my_package
+[1.623s] running install_egg_info
+[1.624s] Copying ../../build/my_package/my_package.egg-info to /home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[1.625s] running install_scripts
+[1.644s] Installing my_node script to /home/fatih/ros2_ws/install/my_package/lib/my_package
+[1.645s] writing list of installed files to '/home/fatih/ros2_ws/build/my_package/install.log'
+[1.671s] Invoked command in '/home/fatih/ros2_ws/src/my_package' returned '0': PYTHONPATH=/home/fatih/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/fatih/ros2_ws/build/my_package/build install --record /home/fatih/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data

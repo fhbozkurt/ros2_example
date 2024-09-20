@@ -1,0 +1,21 @@
+[1.573s] Invoking command in '/home/fatih/ros2_ws/src/fatih': PYTHONPATH=/home/fatih/ros2_ws/build/fatih/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fatih build --build-base /home/fatih/ros2_ws/build/fatih/build install --record /home/fatih/ros2_ws/build/fatih/install.log --single-version-externally-managed install_data
+[2.031s] running egg_info
+[2.034s] writing ../../build/fatih/fatih.egg-info/PKG-INFO
+[2.034s] writing dependency_links to ../../build/fatih/fatih.egg-info/dependency_links.txt
+[2.034s] writing entry points to ../../build/fatih/fatih.egg-info/entry_points.txt
+[2.034s] writing requirements to ../../build/fatih/fatih.egg-info/requires.txt
+[2.034s] writing top-level names to ../../build/fatih/fatih.egg-info/top_level.txt
+[2.037s] reading manifest file '../../build/fatih/fatih.egg-info/SOURCES.txt'
+[2.037s] adding license file 'LICENSE'
+[2.038s] writing manifest file '../../build/fatih/fatih.egg-info/SOURCES.txt'
+[2.038s] running build
+[2.039s] running build_py
+[2.040s] running install
+[2.042s] running install_lib
+[2.044s] running install_data
+[2.044s] running install_egg_info
+[2.044s] removing '/home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages/fatih-0.0.0-py3.10.egg-info' (and everything under it)
+[2.044s] Copying ../../build/fatih/fatih.egg-info to /home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages/fatih-0.0.0-py3.10.egg-info
+[2.046s] running install_scripts
+[2.076s] writing list of installed files to '/home/fatih/ros2_ws/build/fatih/install.log'
+[2.111s] Invoked command in '/home/fatih/ros2_ws/src/fatih' returned '0': PYTHONPATH=/home/fatih/ros2_ws/build/fatih/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fatih build --build-base /home/fatih/ros2_ws/build/fatih/build install --record /home/fatih/ros2_ws/build/fatih/install.log --single-version-externally-managed install_data

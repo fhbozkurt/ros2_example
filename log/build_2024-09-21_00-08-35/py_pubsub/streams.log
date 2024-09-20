@@ -1,0 +1,42 @@
+[0.606s] Invoking command in '/home/fatih/ros2_ws/src/py_pubsub': PYTHONPATH=/home/fatih/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/fatih/ros2_ws/build/py_pubsub/build install --record /home/fatih/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.847s] running egg_info
+[0.847s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[0.847s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.848s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.848s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.848s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.848s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.848s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.849s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.849s] adding license file 'LICENSE'
+[0.850s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.850s] running build
+[0.850s] running build_py
+[0.851s] creating /home/fatih/ros2_ws/build/py_pubsub/build
+[0.851s] creating /home/fatih/ros2_ws/build/py_pubsub/build/lib
+[0.851s] creating /home/fatih/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.851s] copying py_pubsub/__init__.py -> /home/fatih/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.851s] copying py_pubsub/publisher_member_function.py -> /home/fatih/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.851s] copying py_pubsub/subscriber_member_function.py -> /home/fatih/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[0.851s] running install
+[0.851s] running install_lib
+[0.852s] creating /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.852s] copying /home/fatih/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.852s] copying /home/fatih/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.852s] copying /home/fatih/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.852s] byte-compiling /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.852s] byte-compiling /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[0.853s] byte-compiling /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[0.853s] running install_data
+[0.853s] creating /home/fatih/ros2_ws/install/py_pubsub/share/ament_index
+[0.853s] creating /home/fatih/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[0.853s] creating /home/fatih/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.853s] copying resource/py_pubsub -> /home/fatih/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[0.853s] copying package.xml -> /home/fatih/ros2_ws/install/py_pubsub/share/py_pubsub
+[0.853s] running install_egg_info
+[0.855s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.855s] running install_scripts
+[0.872s] Installing listener script to /home/fatih/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.872s] Installing talker script to /home/fatih/ros2_ws/install/py_pubsub/lib/py_pubsub
+[0.872s] writing list of installed files to '/home/fatih/ros2_ws/build/py_pubsub/install.log'
+[0.890s] Invoked command in '/home/fatih/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/fatih/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/fatih/ros2_ws/build/py_pubsub/build install --record /home/fatih/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data

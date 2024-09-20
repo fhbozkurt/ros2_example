@@ -1,0 +1,92 @@
+[0.022s] Invoking command in '/home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/fatih/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.633s] -- The C compiler identification is GNU 11.4.0
+[1.633s] -- The CXX compiler identification is GNU 11.4.0
+[1.633s] -- Detecting C compiler ABI info
+[1.635s] -- Detecting C compiler ABI info - done
+[1.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.635s] -- Detecting C compile features
+[1.635s] -- Detecting C compile features - done
+[1.635s] -- Detecting CXX compiler ABI info
+[1.635s] -- Detecting CXX compiler ABI info - done
+[1.635s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.635s] -- Detecting CXX compile features
+[1.636s] -- Detecting CXX compile features - done
+[1.636s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.637s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.637s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.637s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.637s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.637s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.637s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.637s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.637s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.637s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.638s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.638s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.638s] -- Looking for pthread.h
+[1.638s] -- Looking for pthread.h - found
+[1.638s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.638s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.638s] -- Found Threads: TRUE  
+[1.638s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.638s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.638s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.639s] -- Configured cppcheck include dirs: 
+[1.639s] -- Configured cppcheck exclude dirs and/or files: 
+[1.639s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.639s] -- Configured cpplint exclude dirs and/or files: 
+[1.639s] -- Added test 'lint_cmake' to check CMake code style
+[1.639s] -- Added test 'uncrustify' to check C / C++ code style
+[1.639s] -- Configured uncrustify additional arguments: 
+[1.640s] -- Added test 'xmllint' to check XML markup files
+[1.640s] -- Configuring done
+[1.640s] -- Generating done
+[1.640s] -- Build files have been written to: /home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher
+[1.656s] Invoked command in '/home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/fatih/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher
+[1.657s] Invoking command in '/home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[1.740s] [  8%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[1.740s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_wait_for_all_acked.dir/member_function_with_wait_for_all_acked.cpp.o[0m
+[1.741s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_type_adapter.dir/member_function_with_type_adapter.cpp.o[0m
+[1.742s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[1.746s] [ 41%] [32mBuilding CXX object CMakeFiles/publisher_member_function_with_unique_network_flow_endpoints.dir/member_function_with_unique_network_flow_endpoints.cpp.o[0m
+[1.760s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[19.819s] [ 58%] [32m[1mLinking CXX executable publisher_member_function[0m
+[20.172s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[20.491s] [ 66%] Built target publisher_member_function
+[20.938s] [ 66%] Built target publisher_lambda
+[21.020s] [ 75%] [32m[1mLinking CXX executable publisher_wait_for_all_acked[0m
+[21.187s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[21.565s] [ 83%] Built target publisher_wait_for_all_acked
+[21.602s] [ 91%] [32m[1mLinking CXX executable publisher_member_function_with_type_adapter[0m
+[21.730s] [ 91%] Built target publisher_not_composable
+[21.894s] [100%] [32m[1mLinking CXX executable publisher_member_function_with_unique_network_flow_endpoints[0m
+[22.090s] [100%] Built target publisher_member_function_with_type_adapter
+[22.267s] [100%] Built target publisher_member_function_with_unique_network_flow_endpoints
+[22.510s] Invoked command in '/home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j8 -l8
+[22.636s] Invoking command in '/home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher
+[23.692s] -- Install configuration: ""
+[23.693s] -- Execute custom install script
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_type_adapter
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function_with_unique_network_flow_endpoints
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_wait_for_all_acked
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[23.693s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[23.694s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[23.695s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[23.695s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[23.695s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[23.695s] Invoked command in '/home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fatih/ros2_ws/build/examples_rclcpp_minimal_publisher

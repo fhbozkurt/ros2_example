@@ -1,0 +1,6 @@
+source;share/fatih/hook/pythonpath.ps1
+source;share/fatih/hook/pythonpath.dsv
+source;share/fatih/hook/pythonpath.sh
+source;share/fatih/hook/ament_prefix_path.ps1
+source;share/fatih/hook/ament_prefix_path.dsv
+source;share/fatih/hook/ament_prefix_path.sh

@@ -1,0 +1,119 @@
+[0.035s] Invoking command in '/home/fatih/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/fatih/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fatih/ros2_ws/install/examples_rclcpp_wait_set
+[0.758s] -- The C compiler identification is GNU 11.4.0
+[0.759s] -- The CXX compiler identification is GNU 11.4.0
+[0.759s] -- Detecting C compiler ABI info
+[0.759s] -- Detecting C compiler ABI info - done
+[0.759s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.759s] -- Detecting C compile features
+[0.759s] -- Detecting C compile features - done
+[0.759s] -- Detecting CXX compiler ABI info
+[0.759s] -- Detecting CXX compiler ABI info - done
+[0.759s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.760s] -- Detecting CXX compile features
+[0.760s] -- Detecting CXX compile features - done
+[0.760s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.051s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.179s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.233s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.325s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.339s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.352s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.390s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.468s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.520s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.524s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.667s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.725s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.834s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.855s] -- Looking for pthread.h
+[2.009s] -- Looking for pthread.h - found
+[2.009s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.176s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.180s] -- Found Threads: TRUE  
+[2.318s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.380s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.620s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.627s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.629s] -- Configured cppcheck include dirs: /home/fatih/ros2_ws/src/examples/rclcpp/wait_set/include
+[2.629s] -- Configured cppcheck exclude dirs and/or files: 
+[2.633s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.634s] -- Configured cpplint exclude dirs and/or files: 
+[2.637s] -- Added test 'lint_cmake' to check CMake code style
+[2.641s] -- Added test 'uncrustify' to check C / C++ code style
+[2.641s] -- Configured uncrustify additional arguments: 
+[2.641s] -- Added test 'xmllint' to check XML markup files
+[2.643s] -- Configuring done
+[2.745s] -- Generating done
+[2.748s] -- Build files have been written to: /home/fatih/ros2_ws/build/examples_rclcpp_wait_set
+[2.844s] Invoked command in '/home/fatih/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/fatih/ros2_ws/src/examples/rclcpp/wait_set -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/fatih/ros2_ws/install/examples_rclcpp_wait_set
+[2.845s] Invoking command in '/home/fatih/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fatih/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[2.986s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[2.986s] [  8%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[2.986s] [ 12%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[2.988s] [ 16%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[4.035s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[4.057s] [ 25%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[5.090s] [ 29%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[5.106s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[17.007s] [ 37%] [32m[1mLinking CXX executable wait_set_listener[0m
+[17.522s] [ 37%] Built target wait_set_listener
+[17.603s] [ 41%] [32m[1mLinking CXX executable wait_set_talker[0m
+[17.807s] [ 41%] Built target wait_set_talker
+[20.105s] [ 45%] [32m[1mLinking CXX shared library libtalker.so[0m
+[20.934s] [ 45%] Built target talker
+[33.529s] [ 50%] [32m[1mLinking CXX shared library liblistener.so[0m
+[34.350s] [ 50%] Built target listener
+[35.438s] [ 54%] [32m[1mLinking CXX executable wait_set[0m
+[35.578s] [ 58%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[35.678s] [ 62%] [32m[1mLinking CXX executable static_wait_set[0m
+[36.031s] [ 62%] Built target wait_set_topics_and_timer
+[36.135s] [ 62%] Built target wait_set
+[36.197s] [ 62%] Built target static_wait_set
+[36.226s] [ 66%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[36.608s] [ 66%] Built target thread_safe_wait_set
+[36.623s] [ 70%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[39.018s] [ 75%] [32m[1mLinking CXX executable wait_set_composed[0m
+[39.173s] [ 75%] Built target wait_set_composed
+[39.187s] [ 79%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[46.564s] [ 83%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[46.879s] [ 83%] Built target wait_set_topics_with_different_rates
+[46.893s] [ 87%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[53.918s] [ 91%] [32m[1mLinking CXX executable executor_random_order[0m
+[54.215s] [ 91%] Built target executor_random_order
+[54.229s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[61.839s] [100%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[62.154s] [100%] Built target wait_set_random_order
+[62.161s] Invoked command in '/home/fatih/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/fatih/ros2_ws/build/examples_rclcpp_wait_set -- -j8 -l8
+[62.195s] Invoking command in '/home/fatih/ros2_ws/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fatih/ros2_ws/build/examples_rclcpp_wait_set
+[62.200s] -- Install configuration: ""
+[62.200s] -- Execute custom install script
+[62.200s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[62.206s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[62.213s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/libtalker.so
+[62.219s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/liblistener.so
+[62.225s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[62.231s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[62.237s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[62.243s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[62.249s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[62.255s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[62.261s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[62.266s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[62.272s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[62.280s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[62.286s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[62.292s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[62.298s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[62.304s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[62.310s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[62.315s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[62.321s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[62.327s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[62.332s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[62.338s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[62.343s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[62.349s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[62.354s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[62.360s] -- Symlinking: /home/fatih/ros2_ws/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[62.366s] Invoked command in '/home/fatih/ros2_ws/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/home/fatih/Desktop/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/fatih/ros2_ws/build/examples_rclcpp_wait_set

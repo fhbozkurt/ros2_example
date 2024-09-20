@@ -1,0 +1,34 @@
+[1.486s] Invoking command in '/home/fatih/ros2_ws/src/fatih': PYTHONPATH=/home/fatih/ros2_ws/build/fatih/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fatih build --build-base /home/fatih/ros2_ws/build/fatih/build install --record /home/fatih/ros2_ws/build/fatih/install.log --single-version-externally-managed install_data
+[1.890s] running egg_info
+[1.892s] creating ../../build/fatih/fatih.egg-info
+[1.892s] writing ../../build/fatih/fatih.egg-info/PKG-INFO
+[1.892s] writing dependency_links to ../../build/fatih/fatih.egg-info/dependency_links.txt
+[1.892s] writing entry points to ../../build/fatih/fatih.egg-info/entry_points.txt
+[1.892s] writing requirements to ../../build/fatih/fatih.egg-info/requires.txt
+[1.892s] writing top-level names to ../../build/fatih/fatih.egg-info/top_level.txt
+[1.892s] writing manifest file '../../build/fatih/fatih.egg-info/SOURCES.txt'
+[1.893s] reading manifest file '../../build/fatih/fatih.egg-info/SOURCES.txt'
+[1.894s] adding license file 'LICENSE'
+[1.895s] writing manifest file '../../build/fatih/fatih.egg-info/SOURCES.txt'
+[1.895s] running build
+[1.895s] running build_py
+[1.895s] creating /home/fatih/ros2_ws/build/fatih/build
+[1.895s] creating /home/fatih/ros2_ws/build/fatih/build/lib
+[1.897s] creating /home/fatih/ros2_ws/build/fatih/build/lib/fatih
+[1.897s] copying fatih/__init__.py -> /home/fatih/ros2_ws/build/fatih/build/lib/fatih
+[1.897s] running install
+[1.897s] running install_lib
+[1.897s] creating /home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages/fatih
+[1.897s] copying /home/fatih/ros2_ws/build/fatih/build/lib/fatih/__init__.py -> /home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages/fatih
+[1.898s] byte-compiling /home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages/fatih/__init__.py to __init__.cpython-310.pyc
+[1.898s] running install_data
+[1.898s] creating /home/fatih/ros2_ws/install/fatih/share/ament_index
+[1.899s] creating /home/fatih/ros2_ws/install/fatih/share/ament_index/resource_index
+[1.899s] creating /home/fatih/ros2_ws/install/fatih/share/ament_index/resource_index/packages
+[1.899s] copying resource/fatih -> /home/fatih/ros2_ws/install/fatih/share/ament_index/resource_index/packages
+[1.899s] copying package.xml -> /home/fatih/ros2_ws/install/fatih/share/fatih
+[1.899s] running install_egg_info
+[1.901s] Copying ../../build/fatih/fatih.egg-info to /home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages/fatih-0.0.0-py3.10.egg-info
+[1.902s] running install_scripts
+[1.930s] writing list of installed files to '/home/fatih/ros2_ws/build/fatih/install.log'
+[1.965s] Invoked command in '/home/fatih/ros2_ws/src/fatih' returned '0': PYTHONPATH=/home/fatih/ros2_ws/build/fatih/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fatih/ros2_ws/install/fatih/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fatih build --build-base /home/fatih/ros2_ws/build/fatih/build install --record /home/fatih/ros2_ws/build/fatih/install.log --single-version-externally-managed install_data

@@ -1,0 +1,16 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/fatih/fatih.egg-info/PKG-INFO
+../../build/fatih/fatih.egg-info/SOURCES.txt
+../../build/fatih/fatih.egg-info/dependency_links.txt
+../../build/fatih/fatih.egg-info/entry_points.txt
+../../build/fatih/fatih.egg-info/requires.txt
+../../build/fatih/fatih.egg-info/top_level.txt
+../../build/fatih/fatih.egg-info/zip-safe
+fatih/__init__.py
+resource/fatih
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
